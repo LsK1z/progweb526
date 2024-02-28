@@ -11,10 +11,7 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-    background:rgb(33, 0, 122);
-    box-shadow: 0 8px 32px 0 rgba( 100, 0, 255, 0.35 );
     border-radius: 5px;
-    border: 1px solid rgb(10, 0, 53);
 }
 
 .botaoAtividade {
