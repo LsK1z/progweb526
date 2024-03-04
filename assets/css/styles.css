@@ -1,0 +1,38 @@
+.background {
+    background: linear-gradient(90deg, rgb(10, 10, 10) 30%,  rgb(35, 35, 35) 70%);
+    color: white;
+}
+.cabecalhoAtividade {
+    text-align: center;
+}
+.atividades {
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.botaoAtividade {
+	box-shadow: 3px 4px 0px 0px #130036;
+	background:linear-gradient(to bottom, #3c00ff 5%, #1a0063 100%);
+	background-color:#3c00ff;
+	border-radius:18px;
+	border:1px solid #0d0038;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.botaoAtividade:hover {
+	background:linear-gradient(to bottom, #1a0063 5%, #3c00ff 100%);
+	background-color:#1a0063;
+}
+.botaoAtividade:active {
+	position:relative;
+	top:1px;
+}
