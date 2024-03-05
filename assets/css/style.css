@@ -1,0 +1,13 @@
+.dadosAluno {
+    max-width: 400px;
+    border-radius: 15px;
+    justify-content: center;
+}
+.divAluno {
+    justify-content: center;
+    align-items: center;
+}
+.progressBar {
+    padding-left: 37.5%;
+    padding-right: 37.5%;
+}
