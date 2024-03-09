@@ -1,0 +1,20 @@
+.bgCf{
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.tableStyle{
+    text-align: center;
+    color: #b53147;   
+}
+.tableCf{
+    min-width: 50%;   
+}
+.titlesTable {
+    color: #b53147;
+    font-family: sans-serif;
+}
+.borderCf{
+    border-color: #e2c5a7;
+    min-height: 100px;
+}
