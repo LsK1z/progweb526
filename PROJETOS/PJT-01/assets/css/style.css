@@ -1,0 +1,84 @@
+button {
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(255, 205, 66);
+  font-size: 15px;
+  box-shadow: rgb(253, 173, 0) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgb(253, 173, 0) 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 205, 66);
+  box-shadow: rgb(253, 173, 0) 0px 0px 0px 0px;
+  transform: translateY(5px);
+}
+button a {
+  font-weight: bold;
+  color: rgb(67, 142, 255);
+  text-decoration: none;
+}
+.tableCfg {
+  width: 100%;
+  min-height: 100px;
+}
+.menuButtons {
+  text-align: end;
+}
+.titleCfg {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.textCfg {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 15px;
+}
+.formCfg {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.inputForm {
+  width: 255px;
+  margin-bottom: 5px;
+}
+.inputsDateNum {
+  width: 125px;
+  margin-bottom: 5px;
+}
+.copyright {
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.destCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.destinyCfg {
+  border: solid 1px;
+  border-color: rgba(48, 48, 48, 0.2);
+  border-radius: 10px;
+  background-color: rgba(175, 175, 175, 0.2);
+  text-align: center;
+  width: 23%;
+  margin-bottom: 5px;
+}
+.destinyImg {
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 275px;
+  height: 150px;
+  object-fit: cover;
+}
