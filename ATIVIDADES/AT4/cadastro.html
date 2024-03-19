@@ -10,18 +10,21 @@
 <body style="font-family: sans-serif;">
     <h1>CADASTRO</h1>
     <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
-        Nome:<br>
+        Login:<br>
         <input type="text" name="login"><br>
 
         Senha:<br>
         <input type="password" name="senha"><br>
 
         Confirmar senha:<br>
-        <input type="password" name="confirmar-senha"><br>
+        <input type="password" name="confirmaSenha"><br>
+
+        Nome:<br>
+        <input type="text" name="nome"><br>
 
         Sexo:<br>
-        <input type="radio" value="masculino">Masculino<br>
-        <input type="radio" value="feminino">Feminino<br>
+        <input type="radio" value="sexo">Masculino<br>
+        <input type="radio" value="sexo">Feminino<br>
 
         Estado:<br>
         <select name="Estado" value="estado">
@@ -58,16 +61,16 @@
         <input type="text" name="email"><br>
 
         Interesses:<br>
-        <input type="checkbox" value"futebpç">Futebol<br>
-        <input type="checkbox"value"politica">Politica<br>
-        <input type="checkbox"value"economia">Economia<br>
-        <input type="checkbox"value"carros">Carros<br>
-        <input type="checkbox"value"celebridades">Celebridades<br><br>
+        <input type="checkbox" value"interesses">Futebol<br>
+        <input type="checkbox"value"interesses">Politica<br>
+        <input type="checkbox"value"interesses">Economia<br>
+        <input type="checkbox"value"interesses">Carros<br>
+        <input type="checkbox"value"interesses">Celebridades<br><br>
 
         Obeservações:<br>
         <textarea placeholder="Adicionar mais informações" value"observacao"></textarea><br>
 
-        <input type="submit" value="enviar">
+        <input type="submit" value="Enviar">
     </form>
 
 </body>
