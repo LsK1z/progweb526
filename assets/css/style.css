@@ -1,13 +1,98 @@
-.dadosAluno {
-    max-width: 400px;
-    border-radius: 15px;
-    justify-content: center;
+.background {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.header {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tittleText {
+  color: #4299e1;
+  text-shadow: 2px 1px #520072;
+  text-decoration: solid;
+}
+.buttonNav {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #4299e1;
+  padding: 4px 75px;
+  font-size: 16px;
+  border: 1px solid #2b6cb0;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+}
+.firstButton .buttonNav {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.lastButton .buttonNav {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.buttonNav:hover {
+  display: block;
+  background-color: #2b6cb0;
+}
+.buttonDropdown {
+  position: relative;
+  display: inline-block;
+}
+.buttonDropdown-content {
+  margin-left: 2px;
+  display: none;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.315);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.projectButton .buttonDropdown-content {
+  border-top-right-radius: 10px;
+}
+.buttonDropdown:hover .buttonDropdown-content {
+  display: block;
+}
+.textButton {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #008cff;
+}
+.textButton:hover {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00ccff;
+}
+.navCfg {
+  display: flex;
+  justify-content: center;
 }
 .divAluno {
-    justify-content: center;
-    align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
-.progressBar {
-    padding-left: 37.5%;
-    padding-right: 37.5%;
+.bgAlunoInfo {
+  text-align: center;
+  width: 50%;
+  height: 300px;
+  background: rgba(89, 208, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.295);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+}
+.alunoInfo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
