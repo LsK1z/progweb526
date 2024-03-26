@@ -1,4 +1,6 @@
 button {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
   padding: 10px 10px;
   border-radius: 8px;
   border: 0;
@@ -14,13 +16,13 @@ button:hover {
 }
 
 button:active {
-  background-color: rgb(255, 205, 66);
+  background-color: #ffcd42;
   box-shadow: rgb(253, 173, 0) 0px 0px 0px 0px;
   transform: translateY(5px);
 }
 button a {
   font-weight: bold;
-  color: rgb(67, 142, 255);
+  color: #438eff;
   text-decoration: none;
 }
 .tableCfg {
@@ -36,11 +38,11 @@ button a {
   text-align: center;
 }
 .textCfg {
-    padding-top: 10px;
-    font-size: 14px;
-    font-family: sans-serif;
-    text-align: justify;
-    padding: 15px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 15px;
 }
 .formCfg {
   font-size: 14px;
@@ -63,22 +65,90 @@ button a {
 .destCont {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .destinyCfg {
+  margin-top: 1em;
   border: solid 1px;
   border-color: rgba(48, 48, 48, 0.2);
   border-radius: 10px;
   background-color: rgba(175, 175, 175, 0.2);
   text-align: center;
-  width: 23%;
+  width: 17em;
   margin-bottom: 5px;
 }
 .destinyImg {
   margin-top: 15px;
   border-radius: 10px;
-  width: 275px;
+  width: 15em;
   height: 150px;
-  object-fit: cover;
+  object-fit: fill;
+}
+.formDest {
+  font-weight: bold;
+  height: 3.5em;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  padding-bottom: 0.5em;
+  font-family: sans-serif;
+  background-color: #ffcd42;
+  box-shadow: rgb(253, 173, 0) 0px 10px 0px 0px;
+  border-radius: 0.35em;
+}
+
+.dateInput, .textInput, .ticketOpt, .numberInput {
+  width: 7.2em;
+  margin-right: 1.25em;
+  color: rgb(36, 35, 42);
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 28px;
+  border-radius: 4px;
+  padding: 4px 4px;
+  border: 0px solid transparent;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  background-color: #fff3d4;
+  transition: all 0.1s ease 0s;
+
+}
+.textInput {
+  text-align: center;
+  width: 12em;
+}
+.ticketOpt {
+  padding-top: 0.55em;
+  padding-bottom: 0.55em;
+  color: #000000
+}
+.ticketOpt:hover {
+  position: relative;
+  display: inline;
+  background-color: #ffba6a;
+}
+.dropdownDest {
+  display: inline-block;
+  position: relative;
+}
+.numberInput {
+  width: 3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+.dropdownDest-content {
+  display: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  background-color: #fff3d4;
+  width: 5.60em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.315);
+  padding: 0.55em 0.55em;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin-top: 0.25em;
+}
+.dropdownDest:hover .dropdownDest-content {
+  display: block;
 }

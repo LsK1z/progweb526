@@ -16,6 +16,7 @@
   border: 0;
   cursor: pointer;
   background-color: #4299e1;
+  box-shadow: #2b6cb0 3px 5px 0px 0px;
   padding: 4px 75px;
   font-size: 16px;
   border: 1px solid #2b6cb0;
