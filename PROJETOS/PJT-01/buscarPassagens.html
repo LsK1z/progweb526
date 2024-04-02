@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JM Viagens</title>
+</head>
+
+<body>
+    <table class="tableCfg">
+        <tr>
+            <td>
+                <img src="assets/images/logo.png">
+            </td>
+
+            <td class="menuButtons">
+                <button><a href="index.html">INICIO</a></button>
+                <Button><a href="destinos.html">DESTINOS</a></Button>
+                <button><a href="buscarPassagens.html">BUSCAR PASSAGEM</a></button>
+                <button><a href="empresa.html">QUEM SOMOS</a></button>
+                <button><a href="contato.html">CONTATO</a></button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td class="divPassagens" colspan="2">
+                BUSCAR PASSAGENS AEREAS: <input type="radio" name="Somente_IDA" style="margin-left: 2.5em;">
+                SOMENTE
+                IDA <input type="radio" name="Somente_IDA" style="margin-left: 2.5em;"> IDA E VOLTA<br><br>
+                IDA:
+                <input class="dateInput" type="date" placeholder="data">
+                VOLTA:
+                <input class="dateInput" type="date" placeholder="data">
+                <input type="text" class="textInput" placeholder="ORIGEM">
+                <input type="text" class="textInput" placeholder="DESTINO">
+                <div class="dropdownDest">
+                    <span class="ticketOpt">PASSAGENS</span>
+                    <div class="dropdownDest-content">
+                        Adultos
+                        <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
+                        <hr>
+                        Menores
+                        <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
+                    </div>
+                </div>
+
+                <div class="dropdownDest">
+                    <span class="classOpt">CLASSE</span>
+                    <div class="classDropdownDest-content">
+                        <input type="radio" name="classe">Economica
+                        <hr>
+                        <input type="radio" name="classe">Executiva
+                        <hr>
+                        <input type="radio" name="classe">1° Classe
+                    </div>
+                </div>
+                <hr>
+
+                <form>
+                    Nome:<br />
+                    <input type="text" class="textInput" name="Nome" /> <br />
+                    Telefone:<br />
+                    <input type="tel" class="textInput" name="Telefone" /> <br />
+                    Email:<br />
+                    <input type="Email"  class="textInput" name="Email" /> <br />
+                    Mensagem:<br />
+                    <textarea name="Mensagem" class="messageInput" cols="10" rows="5"></textarea><br />
+                    <input type="submit" class="textInput" name="Enviar" />
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <footer class="copyright">
+                    <p><b>Todos os direitos reservados</b></p>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

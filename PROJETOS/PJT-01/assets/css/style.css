@@ -64,11 +64,13 @@ button a {
 }
 .destCont {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   width: 100%;
 }
 .destinyCfg {
+  margin-left: 1em;
+  margin-right: 1em;
   margin-top: 1em;
   border: solid 1px;
   border-color: rgba(48, 48, 48, 0.2);
@@ -85,19 +87,21 @@ button a {
   height: 150px;
   object-fit: fill;
 }
-.formDest {
+.divPassagens {
   font-weight: bold;
   height: 3.5em;
+  margin-bottom: 2em;
   padding-right: 1.25em;
   padding-left: 1.25em;
-  padding-bottom: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1.0em;
   font-family: sans-serif;
   background-color: #ffcd42;
   box-shadow: rgb(253, 173, 0) 0px 10px 0px 0px;
   border-radius: 0.35em;
 }
 
-.dateInput, .textInput, .ticketOpt, .numberInput {
+.dateInput, .textInput, .numberInput, .ticketOpt, .messageInput {
   width: 7.2em;
   margin-right: 1.25em;
   color: rgb(36, 35, 42);
@@ -116,26 +120,42 @@ button a {
   text-align: center;
   width: 12em;
 }
+.messageInput {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  width: 40em;
+}
 .ticketOpt {
   padding-top: 0.55em;
   padding-bottom: 0.55em;
   color: #000000
-}
-.ticketOpt:hover {
-  position: relative;
-  display: inline;
-  background-color: #ffba6a;
-}
-.dropdownDest {
-  display: inline-block;
-  position: relative;
 }
 .numberInput {
   width: 3em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
 }
-.dropdownDest-content {
+.ticketOpt:hover {
+  position: relative;
+  display: inline;
+}
+.classOpt {
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  background-color: #fff3d4;
+  padding: 0.55em 2.27em 0.55em 2.27em;
+  color: #000000
+}
+.classOpt:hover {
+  position: relative;
+  display: inline;
+}
+.dropdownDest {
+  display: inline-block;
+  position: relative;
+}
+.dropdownDest-content, .classDropdownDest-content {
   display: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -149,6 +169,12 @@ button a {
   left: 0;
   margin-top: 0.25em;
 }
+.classDropdownDest-content {
+  width: 7.5em;
+}
 .dropdownDest:hover .dropdownDest-content {
+  display: block;
+}
+.dropdownDest:hover .classDropdownDest-content {
   display: block;
 }

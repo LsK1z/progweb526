@@ -1,0 +1,29 @@
+body {
+    background-color: #d6d6d6;
+}
+.container {
+    float: left;
+}
+.imagem {
+    width: 100%;
+    height: auto;
+}
+.boxImage {
+    font-family: "opensans-regular", Arial, sans-serif;
+    background-color: #F5F5F5;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+    width: 300px;
+    margin: 20px;
+    float: left;
+}
+.noticia h1 {
+    color: #C4170C;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 8px;
+}
+.noticia p {
+    clear: both;
+}

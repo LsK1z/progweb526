@@ -1,0 +1,24 @@
+.fonteSerif {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+.fonteSans-Serif {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+.fonteMonospace {
+    font-family: "Courier New";
+    font-size: 1.25em;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.875em;
+}
+p {
+    font-size: 0.875em;
+}
+.conteudo {
+    font-size: 30px;
+}
