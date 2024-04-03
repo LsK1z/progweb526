@@ -91,10 +91,7 @@ button a {
   font-weight: bold;
   height: 3.5em;
   margin-bottom: 2em;
-  padding-right: 1.25em;
-  padding-left: 1.25em;
-  padding-top: 1em;
-  padding-bottom: 1.0em;
+  padding: 1em 1.25em 1.5em 1.25em;
   font-family: sans-serif;
   background-color: #ffcd42;
   box-shadow: rgb(253, 173, 0) 0px 10px 0px 0px;
@@ -145,7 +142,7 @@ button a {
   box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
   background-color: #fff3d4;
   padding: 0.55em 2.27em 0.55em 2.27em;
-  color: #000000
+  color: #000000;
 }
 .classOpt:hover {
   position: relative;

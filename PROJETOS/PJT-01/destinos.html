@@ -16,33 +16,57 @@
             </td>
 
             <td class="menuButtons">
-                <Button><a href="index.html">INICIO</a></Button>
-                <Button><a>DESTINOS</a></Button>
-                <button><a href="buscarPassagens.html">BUSCAR PASSAGEM</a></button>
-                <Button><a href="empresa.html">QUEM SOMOS</a></Button>
-                <Button><a href="contato.html">CONTATO</a></Button>
+                <button><a href="index.html">INICIO</a></button>
+                <button><a>DESTINOS</a></button>
+                <button><a href="buscarPassagens.html">BUSCAR
+                        PASSAGEM</a></button>
+                <button><a href="empresa.html">QUEM SOMOS</a></button>
+                <button><a href="contato.html">CONTATO</a></button>
             </td>
         </tr>
 
         <tr>
-            <td colspan="2" class="divPassagens">
-                BUSCAR PASSAGENS AEREAS: <input type="radio" name="Somente_IDA" style="margin-left: 2.5em;">
+            <td colspan="2">
+                <img src="assets/images/destino.png" width="100%">
+                <div class="divPassagens">
+
+                    BUSCAR PASSAGENS AEREAS: <input type="radio" name="Somente_IDA" style="margin-left: 2.5em;">
                     SOMENTE
                     IDA <input type="radio" name="Somente_IDA" style="margin-left: 2.5em;"> IDA E VOLTA<br><br>
-                IDA:
-                <input class="dateInput" type="date" placeholder="data">
-                VOLTA:
-                <input class="dateInput" type="date" placeholder="data">
-                <input type="text" class="textInput" placeholder="ORIGEM">
-                <input type="text" class="textInput" placeholder="DESTINO">
-                <div class="dropdownDest">
-                    <span class="ticketOpt">PASSAGENS</span>
-                    <div class="dropdownDest-content">
-                        Adultos
-                        <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
-                        <hr>
-                        Menores
-                        <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
+                    IDA:
+                    <input class="dateInput" type="date" placeholder="data">
+                    VOLTA:
+                    <input class="dateInput" type="date" placeholder="data">
+                    <input type="text" class="textInput" placeholder="ORIGEM">
+                    <input type="text" class="textInput" placeholder="DESTINO">
+                    <div class="dropdownDest">
+                        <span class="ticketOpt">PASSAGENS</span>
+                        <div class="dropdownDest-content">
+                            Adultos
+                            <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
+                            <hr>
+                            Menores
+                            <input type="number" class="numberInput" placeholder="1-9" min="1" max="9">
+                        </div>
+                    </div>
+
+                    <div class="dropdownDest">
+                        <span class="ticketOpt">Núm Quartos</span>
+                        <div class="dropdownDest-content">
+                            Quartos:
+                            <input type="number" class="numberInput" placeholder="1-5" min="1" max="5">
+                        </div>
+                    </div>
+
+                    <div class="dropdownDest">
+                        <span class="classOpt">CLASSE</span>
+                        <div class="classDropdownDest-content">
+                            <input type="radio" name="classe">Economica
+                            <hr>
+                            <input type="radio" name="classe">Executiva
+                            <hr>
+                            <input type="radio" name="classe">1° Classe
+                        </div>
                     </div>
                 </div>
             </td>
@@ -54,65 +78,83 @@
                     <div class="destinyCfg">
                         <img class="destinyImg" src="assets/images/CdoIguaçu.jpg" />
                         <h3>CATARATAS DO IGUAÇU</h3>
-                        <p class="textCfg">Deslumbrante complexo de cachoeiras na fronteira Brasil-Argentina, Patrimônio
-                            Mundial da UNESCO, atraindo milhões de visitantes anualmente.</p>
+                        <p class="textCfg">Deslumbrante complexo de
+                            cachoeiras na fronteira Brasil-Argentina,
+                            Patrimônio
+                            Mundial da UNESCO, atraindo milhões de
+                            visitantes anualmente.</p>
                     </div>
 
                     <div class="destinyCfg">
                         <img class="destinyImg" src="assets/images/FNoronha.jpg" />
                         <h3>FERNANDO DE NORONHA</h3>
-                        <p class="textCfg">Arquipélago paradisíaco no nordeste brasileiro, famoso por suas praias de
-                            águas cristalinas e diversidade marinha preservada.</p>
+                        <p class="textCfg">Arquipélago paradisíaco no
+                            nordeste brasileiro, famoso por suas praias de
+                            águas cristalinas e diversidade marinha
+                            preservada.</p>
                     </div>
 
                     <div class="destinyCfg">
                         <img class="destinyImg" src="assets/images/LMaranhense.jpg" />
                         <h3>LENÇOIS MARANHENSES</h3>
-                        <p class="textCfg">Deserto único no Brasil, com dunas brancas e lagoas de água cristalina,
-                            criando um cenário de beleza surreal e paisagens deslumbrantes.</p>
+                        <p class="textCfg">Deserto único no Brasil, com
+                            dunas brancas e lagoas de água cristalina,
+                            criando um cenário de beleza surreal e paisagens
+                            deslumbrantes.</p>
                     </div>
 
                     <div class="destinyCfg">
                         <img class="destinyImg" src="assets/images/RJ.jpg" />
                         <h3>RIO DE JANEIRO</h3>
-                        <p class="textCfg"> Cidade brasileira icônica, conhecida por suas praias famosas, paisagens
-                            deslumbrantes, cultura vibrante e o imponente Cristo Redentor no Corcovado.</p>
+                        <p class="textCfg"> Cidade brasileira icônica,
+                            conhecida por suas praias famosas, paisagens
+                            deslumbrantes, cultura vibrante e o imponente
+                            Cristo Redentor no Corcovado.</p>
                     </div>
 
-                        <div class="destinyCfg">
-                            <img class="destinyImg" src="assets/images/Paris.jpg" />
-                            <h3>PARIS</h3>
-                            <p class="textCfg">Paris, a Cidade Luz, é um ícone da cultura, arte e romance. Destacam-se a
-                                Torre Eiffel, o Louvre, a Catedral de Notre-Dame e a charmosa Montmartre.</p>
-                        </div>
+                    <div class="destinyCfg">
+                        <img class="destinyImg" src="assets/images/Paris.jpg" />
+                        <h3>PARIS</h3>
+                        <p class="textCfg">Paris, a Cidade Luz, é um ícone
+                            da cultura, arte e romance. Destacam-se a
+                            Torre Eiffel, o Louvre, a Catedral de Notre-Dame
+                            e a charmosa Montmartre.</p>
+                    </div>
 
-                        <div class="destinyCfg">
-                            <img class="destinyImg" src="assets/images/Portugal.jpg" />
-                            <h3>PORTUGAL</h3>
-                            <p class="textCfg">Portugal encanta com sua rica história e paisagens diversificadas, desde
-                                Lisboa com suas colinas e charme antigo, até o Porto, com vinícolas e arquitetura única.
-                            </p>
-                        </div>
+                    <div class="destinyCfg">
+                        <img class="destinyImg" src="assets/images/Portugal.jpg" />
+                        <h3>PORTUGAL</h3>
+                        <p class="textCfg">Portugal encanta com sua rica
+                            história e paisagens diversificadas, desde
+                            Lisboa com suas colinas e charme antigo, até o
+                            Porto, com vinícolas e arquitetura única.
+                        </p>
+                    </div>
 
-                        <div class="destinyCfg">
-                            <img class="destinyImg" src="assets/images/NewZ.jpg" />
-                            <h3>NOVA ZELÂNDIA</h3>
-                            <p class="textCfg">Paraísos naturais como os fiordes de Milford Sound, a geotérmica Rotorua,
-                                e as praias de areias douradas de Abel Tasman.</p>
-                        </div>
+                    <div class="destinyCfg">
+                        <img class="destinyImg" src="assets/images/NewZ.jpg" />
+                        <h3>NOVA ZELÂNDIA</h3>
+                        <p class="textCfg">Paraísos naturais como os fiordes
+                            de Milford Sound, a geotérmica Rotorua,
+                            e as praias de areias douradas de Abel
+                            Tasman.</p>
+                    </div>
 
-                        <div class="destinyCfg">
-                            <img class="destinyImg" src="assets/images/Seul.jpg" />
-                            <h3>COREIA DO SUL</h3>
-                            <p class="textCfg">Seul, a capital moderna; templos budistas como o bulguk-sa; a ilha de
-                                Jeju com vulcões e praias; e a zona desmilitarizada entre as Coreias.</p>
-                        </div>
+                    <div class="destinyCfg">
+                        <img class="destinyImg" src="assets/images/Seul.jpg" />
+                        <h3>COREIA DO SUL</h3>
+                        <p class="textCfg">Seul, a capital moderna; templos
+                            budistas como o bulguk-sa; a ilha de
+                            Jeju com vulcões e praias; e a zona
+                            desmilitarizada entre as Coreias.</p>
+                    </div>
             </td>
         </tr>
 
         <tr>
             <td colspan="2">
-                <footer class="copyright"><b>Todos os direitos reservados</b></footer>
+                <footer class="copyright"><b>Todos os direitos
+                        reservados</b></footer>
         </tr>
     </table>
 </body>
