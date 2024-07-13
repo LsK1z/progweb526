@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box {
+    background: url(/ATIVIDADES/AT14/images/tqoPqpxw.png);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #888888;
+}
+.box h1 {
+    background: rgba(255,255,255, 0.5);
+    text-shadow: 3px 3px 3px #ffa500;
+}
+.sombras {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+.pinkBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: #ff9add;
+    width: 450px;
+    height: 200px;
+    box-shadow: 0px 10px 10px 0px rgba(168, 103, 122, 0.6);
+}
+.innerPinkBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 170px;
+    border: 3px dashed #ffffff;
+    padding: 0px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.yellowBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: rgb(255, 253, 148);
+    width: 450px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 50px 0px rgba(128, 90, 10, 0.8);
+}
+.innerYellowBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 170px;
+    border: 3px dashed #ffffff;
+    padding: 0px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+}
+.box1 {
+    background: linear-gradient(#ffff00, #ff0000);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.box1 h1 {
+    background: #fffc47;
+}
+.box2 {
+    background: linear-gradient(to top left, #ffff00, #ff0000);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.box2 h1 {
+    background: linear-gradient(to right, #ff98c3, #f7ff8b);
+}
+.box3 {
+    background: linear-gradient(to bottom left, red, rgb(0, 255, 0), rgb(255, 0, 212), rgb(0, 255, 255) );
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.box4 {
+    background: radial-gradient(red, yellow, green);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+}
