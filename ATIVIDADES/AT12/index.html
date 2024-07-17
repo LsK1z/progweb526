@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12 - Atributo Data</title>
+
+    <script type="text/javascript">
+        function mostrarvalor(button) {
+            const pessoa = button.parentElement;
+            const detalhes = pessoa.querySelector('.pessoa-detalhes');
+            const nome = pessoa.getAttribute('data-nome');
+            const idade = pessoa.getAttribute('data-idade');
+            const cpf = pessoa.getAttribute('data-cpf');
+            detalhes.textContent = `Nome: ${nome} - Idade: ${idade} - C.P.F= ${cpf}`
+            detalhes.style.delay = 'block'
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Atividade 12 - Atributo Data</h1>
+
+    <h2>Pessoas</h2>
+
+    <div class="pessoa" data-nome="João" data-idade="20" data-cpf="999">
+        <h3>João</h3>
+        <p class="pessoa-detalhes"></p>
+        <button onclick="mostrarvalor(this)">Mostrar Detalhes</button>
+    </div>
+    <div class="pessoa" data-nome="José" data-idade="30" data-cpf="888">
+        <h3>José</h3>
+        <p class="pessoa-detalhes"></p>
+        <button onclick="mostrarvalor(this)">Mostrar Detalhes</button>
+    </div>
+    <div class="pessoa" data-nome="Maria" data-idade="40" data-cpf="777">
+        <h3>Maria</h3>
+        <p class="pessoa-detalhes"></p>
+        <button onclick="mostrarvalor(this)">Mostrar Detalhes</button>
+    </div>
+
+</body>
+
+</html>
