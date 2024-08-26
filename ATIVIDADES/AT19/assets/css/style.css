@@ -45,6 +45,7 @@
     border-radius: 0.2rem;
     background-color: #ebeff5;
     width: 20rem;
+    border: 1px solid #d3d3d3;
 }
 img {
     width: 10rem;
