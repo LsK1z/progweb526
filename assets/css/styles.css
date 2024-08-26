@@ -8,7 +8,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     padding: 0.5rem;
 }
@@ -26,20 +25,14 @@ main {
 .boxAtividades {
     text-align: center;
     width: 80vw;
-    height: 0;
-    padding: 0;
+    height: 80vh;
+    padding: 1rem;
     overflow: hidden;
-    opacity: 0;
+    overflow-y: scroll;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 0.5rem;
     -webkit-backdrop-filter: blur(2rem);
     backdrop-filter: blur(0.5rem);
-    transition: height 2.0s ease, opacity 0.5s ease, padding 0.25s ease;
-}
-.boxAtividades.visible {
-    height: 80vh;
-    padding: 1rem;
-    opacity: 1;
 }
 main button {
     width: 12.5rem;

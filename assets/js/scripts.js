@@ -33,13 +33,3 @@ document.addEventListener("DOMContentLoaded", function() {
         atividadesContainer.appendChild(button);
     });
 });
-
-document.addEventListener("DOMContentLoaded", function() {
-    const boxAtividades = document.querySelector(".boxAtividades");
-    const atividadesLink = document.querySelector("nav a:nth-child(3)");
-    
-    atividadesLink.addEventListener("click", function() {
-        boxAtividades.classList.toggle("visible");
-    });
-});
-
