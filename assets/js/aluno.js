@@ -22,27 +22,27 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     const atividades = [
-        '/AT1/index.html',
-        '/AT2/index.html',
-        '/AT3/index.html',
-        '/AT4/index.html',
-        '/AT5/index.html',
-        '/AT6/index.html',
-        '/AT7/index.html',
-        '/AT8/index.html',
-        '/AT9/index.html',
-        '/AT10/index.html',
-        '/AT11/index.html',
-        '/AT12/index.html',
-        '/AT13/index.html',
-        '/AT14/index.html',
-        '/AT15/index.html',
-        '/AT16/index.html',
-        '/AT17/index.html',
-        '/AT18/index.html',
-        '/AT19/index.html',
-        '/AT20/index.html',
-        '/AT21/index.html',
+        'ATIVIDADES/AT1/index.html',
+        'ATIVIDADES/AT2/index.html',
+        'ATIVIDADES/AT3/index.html',
+        'ATIVIDADES/AT4/index.html',
+        'ATIVIDADES/AT5/index.html',
+        'ATIVIDADES/AT6/index.html',
+        'ATIVIDADES/AT7/index.html',
+        'ATIVIDADES/AT8/index.html',
+        'ATIVIDADES/AT9/index.html',
+        'ATIVIDADES/AT10/index.html',
+        'ATIVIDADES/AT11/index.html',
+        'ATIVIDADES/AT12/index.html',
+        'ATIVIDADES/AT13/index.html',
+        'ATIVIDADES/AT14/index.html',
+        'ATIVIDADES/AT15/index.html',
+        'ATIVIDADES/AT16/index.html',
+        'ATIVIDADES/AT17/index.html',
+        'ATIVIDADES/AT18/index.html',
+        'ATIVIDADES/AT19/index.html',
+        'ATIVIDADES/AT20/index.html',
+        'ATIVIDADES/AT21/index.html',
     ];
 
     const atividadesContainer = document.getElementById('atividades-container');
@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     const projetos = [
-        '/PJT-01/index.html',
-        '/PJT-02/index.html',
+        'PROJETOS/PJT-01/index.html',
+        'PROJETOS/PJT-02/index.html',
     ];
 
     const projetosContainer = document.getElementById('projetos-container');
