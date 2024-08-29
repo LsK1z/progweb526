@@ -22,7 +22,7 @@ main {
 .hidden {
     display: none;
 }
-.boxAtividades {
+.boxAtividades, .boxAluno, .boxProjetos {
     text-align: center;
     width: 80vw;
     height: 80vh;
@@ -34,20 +34,28 @@ main {
     -webkit-backdrop-filter: blur(2rem);
     backdrop-filter: blur(0.5rem);
 }
+.boxAluno {
+    width: 60vw;
+    height: 50vh;
+    color: white;
+    font-size: 1.1rem;
+}
+.boxAluno li {
+    background: transparent;
+}
 main button {
     width: 12.5rem;
     margin: 0.3rem;
     padding: 0.5rem;
 }
-.boxAtividades::-webkit-scrollbar {
+.boxAtividades::-webkit-scrollbar, .boxAluno::-webkit-scrollbar, .boxProjetos::-webkit-scrollbar {
     width: 8px; 
 }
-.boxAtividades::-webkit-scrollbar-track {
+.boxAtividades::-webkit-scrollbar-track, .boxAluno::-webkit-scrollbar-track, .boxProjetos::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 }
-
-.boxAtividades::-webkit-scrollbar-thumb {
+.boxAtividades::-webkit-scrollbar-thumb, .boxAluno::-webkit-scrollbar-thumb, .boxProjetos::-webkit-scrollbar-thumb {
     background-color: #ffffff;
     border-radius: 10px;
     border: 3px solid transparent;

@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INT. PROGRAMAÇÃO WEB - JAIRO LUCAS</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/scss/_transitions.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
 </head>
-
-<body class="background">
-    <header class="header">
-        <h1 class="tittleText">INTRODUÇÃO PROGRAMAÇÃO WEB</h1>
-    </header>
-    <nav class="navCfg">
-        <a class="textButton firstButton" href="index.html"><button class="buttonNav">INICIO</button></a>
-        <a class="textButton" href="aluno.html"><button class="buttonNav">ALUNO</button></a>
-        <div class="buttonDropdown">
-            <span> <button class="buttonNav">ATIVIDADES</button> </span>
-            <div class="buttonDropdown-content">
-                <a class="textButton" target="_blank" href="ATIVIDADES/AT1/index.html">ATIVIDADE 1 - Links</a>
-                <hr>
-                <a class="textButton" target="_blank" href="ATIVIDADES/AT2/index.html">ATIVIDADE 2 - Mais Tags HTML</a>
-                <hr>
-                <a class="textButton" target="_blank" href="ATIVIDADES/AT3/index.html">ATIVIDADE 3 - Tabelas HTML</a>
-                <hr>
-                <a class="textButton" target="_blank" href="ATIVIDADES/AT4/index.html">ATIVIDADE 4 - Formularios</a>
-            </div>
-        </div>
-        <div class="buttonDropdown projectButton lastButton">
-            <span> <button class="buttonNav">PROJETOS</button> </span>
-            <div class="buttonDropdown-content">
-                <a class="textButton" target="_blank" href="PROJETOS/PJT-01/index.html">PROJETO 01 - JM VIAGENS</a>
-            </div>
-        </div>
+<body class="container-fluid">
+    <nav>
+      <a href="index.html" class="btn btn-outline-light"><b>INICIO</b></a>
+      <a href="aluno.html" class="btn btn-outline-light"><b>ALUNO</b></a>
+      <a id="atividades-button" class="btn btn-outline-light"><b>ATIVIDADES</b></a>
+      <a id="projetos-button" class="btn btn-outline-light"><b>PROJETOS</b></a>
     </nav>
-    <div class="divAluno">
-            <div class="bgAlunoInfo">
-                <p class="alunoInfo">ALUNO: JAIRO LUCAS BRITO SILVA</p>
-                <p class="alunoInfo">DISCIPLINA: INTRODUÇÃO A PROGRAMAÇÃO WEB</p>
-                <p class="alunoInfo">PROFESSOR: JEFFERSON DE SOUSA SILVA</p>
-                <p class="alunoInfo">TURMA: 526</p>
-            </div>
-    </div>
-</body>
 
+    <main>
+        <div class="boxAluno">
+            <p>DISCIPLINA: INTRODUÇÃO A PROGRAMAÇÃO WEB</p><hr>
+            <p>PROFESSOR: JEFFERSON</p><hr>
+            <p>ALUNO: JAIRO LUCAS BRITO SILVA</p><hr>
+            <p>TURMA: 526</p><hr>
+        </div>
+        <div class="boxAtividades collapse hidden" id="atividades-container"></div>
+        <div class="boxProjetos collapse hidden" id="projetos-container"></div>
+    </main>
+
+<script src="assets/js/aluno.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
