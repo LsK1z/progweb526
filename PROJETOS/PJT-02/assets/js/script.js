@@ -17,5 +17,17 @@ document.addEventListener('DOMContentLoaded', function () {
     
         // Inicializando o popover
         var popover = new bootstrap.Popover(tooltipTrigger);
-    });
-    
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+const toastTrigger = document.getElementById('cadastrarProduto')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}});
+
+

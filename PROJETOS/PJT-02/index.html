@@ -154,7 +154,7 @@
             </div>
             <div class="input-group mb-3">
                 <span class="input-group-text" style="width: 25%;">PRECO</span>
-                <input type="text" placeholder="R$ 1000.00" class="form-control" aria-label="PRECO">
+                <input type="number" placeholder="R$ 1000.00" class="form-control" aria-label="PRECO">
               </div>
             <div class="input-group mb-3">
                 <span class="input-group-text" style="width: 25%;" id="basic-addon1">CATEGORIA:</span>
@@ -170,9 +170,23 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">SAIR</button>
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">CADASTRAR</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="cadastrarProduto">CADASTRAR</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <i class="bi bi-chat-square-dots-fill" style="margin-right: 1rem;"></i>
+        <strong class="me-auto">SISTEMA</strong>
+        <small>Agora</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        PRODUTO CADASTRADO COM SUCESSO!
     </div>
   </div>
 </div>
