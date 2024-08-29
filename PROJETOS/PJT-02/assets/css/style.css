@@ -1,0 +1,33 @@
+nav button, .buttonsBodyCard button {
+    margin: 0.25rem 0rem 0.5rem 0rem ;
+	background-color: #00639c;
+	border-radius:3px;
+	border:1px solid #004574;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 0.35rem 1rem 0.35rem 1rem;
+	text-decoration:none;
+}
+nav button:hover, .buttonsBodyCard button:hover {
+	background-color:#004574;
+    border:1px solid #00639c;
+}
+.card-body input {
+	width: 25rem;
+	border: 1px solid #0085dd;
+	border-radius: 2px;
+}
+.botaoAcoes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.625rem;
+	height: 1.625rem;
+	background-color: #c8c8c8;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+	font-size: 1.2rem;
+	margin: 0.25rem;
+}
