@@ -1,9 +1,13 @@
-.row {
+body {
     background: rgb(191, 191, 191);
     background: linear-gradient(45deg, #121212 0%, #404040 100%);
+    background-repeat: no-repeat;
+    background-size: fill;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
+}
+.row {
     color: aliceblue;
 }
 
