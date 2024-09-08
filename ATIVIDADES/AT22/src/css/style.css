@@ -1,0 +1,33 @@
+.divRaizQ {
+    padding-top: 1rem;
+    padding-inline: 2rem;
+}
+#escreverNum{
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    width: 90%;
+    height: 37.5rem;
+    font-size: 1.05rem;
+    color: #121212;
+    font-weight: bold;
+    text-align: start;
+    overflow-y: auto;
+    box-shadow: 5px 5px rgb(197, 197, 197);
+}
+.dynamictext {
+    text-align: center;
+}
+#escreverNum::-webkit-scrollbar {
+    width: 15px; 
+}
+#escreverNum::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+#escreverNum::-webkit-scrollbar-thumb {
+    background-color: #0066ff;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto jQuery</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <div class="imgLogo">
+                    <img src="src/images/consultaCep.webp">
+                </div>
+                <div>
+                    <div class="consultarCEP">
+                        <label><input name="cep" type="text" id="cep" value="" placeholder="INSERIR CEP" size="10"
+                                maxlength="9"></label><br>
+                        <button id="btnCep">CONSULTAR CEP</button>
+                    </div>
+                </div>
+                <div class="formCep hidden">
+                    <div class="contentView">
+                        <label>Rua:<br>
+                            <div class="cepInfos">
+                                <i class="fa-solid fa-road" style="color: #FFD43B;"></i>
+                                <input name="rua" type="text" id="rua" readonly>
+                            </div>
+                        </label>
+
+                        <label>Bairro:<br>
+                            <div class="cepInfos">
+                                <i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i>
+                                <input name="bairro" type="text" id="bairro" readonly>
+                            </div>
+                        </label>
+
+                        <label>Cidade:<br>
+                            <div class="cepInfos">
+                                <i class="fa-solid fa-building-flag" style="color: #FFD43B;"></i>
+                                <input name="cidade" type="text" id="cidade" readonly>
+                            </div>
+                        </label>
+
+                        <label>Estado:<br>
+                            <div class="cepInfos">
+                                <i class="fa-solid fa-mountain-sun" style="color: #FFD43B;"></i>
+                                <input name="uf" type="text" id="uf" readonly>
+                            </div>
+                        </label>
+
+                        <label>IBGE:<br>
+                            <div class="cepInfos">
+                                <i class="fa-solid fa-earth-americas" style="color: #FFD43B;"></i>
+                                <input name="ibge" type="text" id="ibge" readonly>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="imgMap">
+                    <img src="../PJT-03/src/images/brazilMap.webp">
+                </div>
+                <div class="instrucoesCEP">
+                    <h4>INSTRUCOES PARA CONSULTAR O CEP:</h4>
+                    <ol>
+                        <li>Insira o Cep que deseja buscar no campo <strong>Inserir CEP</strong>
+                            <p>* O cep deve conter apenas numeros, desconsidere usar os caracteres ' <strong>.</strong>
+                                ' e ' <strong>-</strong> '</p>
+                        </li>
+                        <li>apos inserir o CEP no campo, clique no botao <strong>consultar CEP</strong></li><br>
+                        <li>apos clicar no botao consultar cep, as informacoes do cep consultado aparecerao abaixo do
+                            botao</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="src/js/script.js"></script>
+<script src="https://kit.fontawesome.com/f770a3f15b.js" crossorigin="anonymous"></script>
+
+</html>
+
