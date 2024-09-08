@@ -43,6 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
         '/AT19/index.html',
         '/AT20/index.html',
         '/AT21/index.html',
+        '/AT22/index.html',
+        '/AT23/index.html',
     ];
 
     const atividadesContainer = document.getElementById('atividades-container');
@@ -59,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const projetos = [
         '/PJT-01/index.html',
         '/PJT-02/index.html',
+        '/PJT-03/index.html',
     ];
 
     const projetosContainer = document.getElementById('projetos-container');
