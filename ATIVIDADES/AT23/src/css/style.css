@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.atividades {
+    display: flex;
+    padding: 1rem;
+    width: 100vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.listaSimples, .notas, .listaBox {
+    border: 1px solid #121212;
+    border-radius: 5px;
+    width: 33%;
+    height: auto;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
