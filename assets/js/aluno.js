@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
         '/AT21/index.html',
         '/AT22/index.html',
         '/AT23/index.html',
+        '/AT24/index.html',
     ];
 
     const atividadesContainer = document.getElementById('atividades-container');
@@ -54,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
         button.type = 'button';
         button.className = 'btn btn-light';
         button.textContent = `ATIVIDADE ${index + 1}`;
-        button.onclick = () => window.location.href = `ATIVIDADES/${atividade}`;
+        button.onclick = () => window.open(`ATIVIDADES/${atividade}`, '_blank');
         atividadesContainer.appendChild(button);
     });
 
@@ -71,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
         button.type = 'button';
         button.className = 'btn btn-light';
         button.textContent = `PROJETO ${index + 1}`;
-        button.onclick = () => window.location.href = `PROJETOS/${projeto}`;
+        button.onclick = () => window.open(`PROJETOS/${projeto}`, '_blank');
         projetosContainer.appendChild(button);
     });
 });
