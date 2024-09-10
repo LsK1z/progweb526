@@ -1,9 +1,7 @@
 body {
     background: linear-gradient(45deg, #252525, #252525);
-    height: 100%;
 }
 .container-fluid {
-    padding: 0.5rem;
     color: aliceblue;
     text-transform: uppercase;
     box-sizing: border-box;
@@ -79,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 50%;
+    max-height: 100%;
 }
 .contentView i {
     text-align: center;
